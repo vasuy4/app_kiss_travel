@@ -1,11 +1,11 @@
 -- Вставка пользователей системы
 INSERT OR IGNORE INTO users (email, password_hash, full_name, role, phone, office_location) VALUES 
-  ('admin@mechta-travel.ru', 'w6Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8Qw==', 'Петров Иван Сергеевич', 'admin', '+7(495)111-22-33', 'central'),
-  ('manager1@mechta-travel.ru', 'w6Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8Qw==', 'Сидорова Елена Владимировна', 'manager', '+7(495)111-22-34', 'central'),
-  ('manager2@mechta-travel.ru', 'w6Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8Qw==', 'Козлов Андрей Петрович', 'manager', '+7(812)222-33-44', 'branch'),
-  ('agent1@mechta-travel.ru', 'w6Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8Qw==', 'Михайлова Ольга Николаевна', 'agent', '+7(903)123-45-67', 'mobile'),
-  ('agent2@mechta-travel.ru', 'w6Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8Qw==', 'Новиков Дмитрий Александрович', 'agent', '+7(916)234-56-78', 'mobile'),
-  ('accountant@mechta-travel.ru', 'w6Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8QwQw8Qw8Qw==', 'Белова Татьяна Ивановна', 'accountant', '+7(495)111-22-35', 'central');
+  ('admin@mechta-travel.ru', 'VI0srU2CrV3L11FKOI8zWsfGugoRPTY/7J43lFZDsH8=', 'Петров Иван Сергеевич', 'admin', '+7(495)111-22-33', 'central'),
+  ('manager1@mechta-travel.ru', 'VI0srU2CrV3L11FKOI8zWsfGugoRPTY/7J43lFZDsH8=', 'Сидорова Елена Владимировна', 'manager', '+7(495)111-22-34', 'central'),
+  ('manager2@mechta-travel.ru', 'VI0srU2CrV3L11FKOI8zWsfGugoRPTY/7J43lFZDsH8=', 'Козлов Андрей Петрович', 'manager', '+7(812)222-33-44', 'branch'),
+  ('agent1@mechta-travel.ru', 'VI0srU2CrV3L11FKOI8zWsfGugoRPTY/7J43lFZDsH8=', 'Михайлова Ольга Николаевна', 'agent', '+7(903)123-45-67', 'mobile'),
+  ('agent2@mechta-travel.ru', 'VI0srU2CrV3L11FKOI8zWsfGugoRPTY/7J43lFZDsH8=', 'Новиков Дмитрий Александрович', 'agent', '+7(916)234-56-78', 'mobile'),
+  ('accountant@mechta-travel.ru', 'VI0srU2CrV3L11FKOI8zWsfGugoRPTY/7J43lFZDsH8=', 'Белова Татьяна Ивановна', 'accountant', '+7(495)111-22-35', 'central');
 
 -- Вставка стран
 INSERT OR IGNORE INTO countries (name, code, visa_required, description) VALUES 
