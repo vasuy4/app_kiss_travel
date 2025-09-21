@@ -270,7 +270,6 @@ class TravelManagementSystem {
         }
         
         // Обновляем активный пункт меню
-        this.showDashboard();
     }
 
     async showHomePage() {
